@@ -4,7 +4,8 @@ createApp({
         return{
             messaggio : "Benvenuto",
             nome : "Lorenzo",
-            cognome : "Monteforte"
+            cognome : "Monteforte",
+            srcImmagine : "img/immagine.jpg"
         }
     }
 }).mount('#app')
