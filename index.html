@@ -8,7 +8,14 @@
 </head>
 <body>
     <div id="app">
-        <h1>{{messaggio}} {{nome}} {{cognome}}</h1>
+        <h1 v-bind:class="colore">{{messaggio}} {{nome}} {{cognome}}</h1>
+        <input type="text" placeholder="Inserisci nome" v-model="nome">
+        <input type="text" placeholder="Inserisci cognome" v-model ="cognome">
+        <select v-model="colore">
+            <option value="rosso">Rosso</option>
+            <option value="giallo">Giallo</option>
+            <option value="verde">Verde</option>
+        </select>
         <img v-bind:src="srcImmagine">
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>

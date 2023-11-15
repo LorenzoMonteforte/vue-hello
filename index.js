@@ -3,9 +3,10 @@ createApp({
     data(){
         return{
             messaggio : "Benvenuto",
-            nome : "Lorenzo",
-            cognome : "Monteforte",
-            srcImmagine : "img/immagine.jpg"
+            nome : "",
+            cognome : "",
+            srcImmagine : "img/immagine.jpg",
+            colore : ""
         }
     }
 }).mount('#app')

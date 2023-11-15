@@ -8,4 +8,18 @@
 
 img{
     width: 30%;
+    display: block;
+    margin-top: 0.5rem;
+}
+
+.rosso{
+    color: red;
+}
+
+.giallo{
+    color: yellow;
+}
+
+.verde{
+    color: green;
 }
