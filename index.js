@@ -6,7 +6,17 @@ createApp({
             nome : "",
             cognome : "",
             srcImmagine : "img/immagine.jpg",
-            colore : ""
+            colore : "",
+
+            x : "",
+            y : "",
+            risultato : ""
+        }
+    },
+    methods : {
+        calcolaSomma : function(){
+            let somma = parseInt(this.x) + parseInt(this.y);
+            this.risultato = somma;
         }
     }
 }).mount('#app')

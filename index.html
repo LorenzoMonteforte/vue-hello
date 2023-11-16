@@ -17,6 +17,12 @@
             <option value="verde">Verde</option>
         </select>
         <img v-bind:src="srcImmagine">
+
+        <h1>Calcola la somma fra due numeri</h1>
+        <input type="text" placeholder="Inserisci un numero" v-model="x">
+        <input type="text" placeholder="Inserisci un numero" v-model="y">
+        <button @click="calcolaSomma">Calcola</button>
+        <div>La somma è {{risultato}}</div>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="index.js"></script>
